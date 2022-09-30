@@ -1,9 +1,8 @@
-var a=10
-var b=20
-console.log(a);
-result=++a
-console.log(a); //can also print like---log.console(result)
-
-post=b++
-console.log(post) //not incremented
+var sal=10
+var salary=20
+console.log(sal);           // prints 10
+pre=++sal
+console.log(sal); //can also print like---log.console(result) // prints 11
+post=salary++
+console.log(post) //value is not incremented    // prints 20
 

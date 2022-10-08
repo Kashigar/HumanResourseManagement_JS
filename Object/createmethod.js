@@ -3,7 +3,6 @@ var myself= {
     l_name:"Kashigar",
     experience:"4",
     skill_tes:[{1:"S",2:"p"},"manual","sql","java-script","selenium"],
-
     display: function()
     {
         return "My name is: " + " " + this.f_name +" " + this.l_name

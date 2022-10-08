@@ -1,4 +1,4 @@
-var Array2=[100,50,10,5]
+       var Array2=[100,50,10,5]
 
 console.log(Array2);            // [ 100, 50, 10, 5 ]
 console.log(Array2.sort((a,b)=>{

@@ -14,6 +14,6 @@ function your_village()
 console.log(didtrict_name);
 your_village()
 //============================
-//line num 7-10 is local scope
-//line num 4-13 is outfunction scope
-//line 1-15 global scope
+//line num 7-10 is called lexical (local scope)
+//line num 4-13 is called lexical environment (outfunction scope)
+//line 1-15 is called global (global scope)

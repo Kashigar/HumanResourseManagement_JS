@@ -10,5 +10,4 @@ function operation(a,b,operation)
     {
         log(a*b)
     }
-
 operation(4,8,sum)

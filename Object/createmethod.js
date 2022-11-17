@@ -10,6 +10,7 @@ var myself= {
 }
 var biodata= Object.create(myself)
     biodata.f_name="Preeti" //override
+    
     biodata.l_name="Garag"  //override
 //console.log(myself);      // Display whole object content
 console.log(myself.skill_tes[1])

@@ -8,7 +8,7 @@ class person
     }
     static a=10
     b=20                //declare & initialize non static variable 
-
+    
     sample()
     {
         console.log(this.a); // undefined --> because varibable is static 
@@ -31,9 +31,10 @@ class person
 
 var demo1=new person ("suma", "SK", ["java","selenium","java script"])
 
-//console.log(demo1.sample())
-console.log(person.display());
+// console.log(demo1.sample())
+// console.log(person.display());
 
 //INSIDE THE METHOD :
 // to access non static variable inside static method we create an another object inside the
 // method and access the non static variable using newly created object.
+

@@ -2,7 +2,6 @@
 display=(s,r)=>{ console.log(s,r)}
 display(666,888)
 
-
 display=(s,r)=>
 {
     if(s>r)

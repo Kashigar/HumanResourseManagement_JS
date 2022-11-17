@@ -8,7 +8,6 @@ class person
     }
     static a=10
     b=20                //declare & initialize non static variable 
-
     sample()
     {
         console.log(this.a); // undefined 
@@ -26,7 +25,7 @@ class person
     static display()
     {
         console.log(this.a);    // 10
-        console.log(demo1.b);   // 20
+        console.log(demo1.b);   // 20//*** */
         console.log(`"Hi...`);  //hello
          //creation of object
         let r=new person()         //create object to acces non static variable in static method 

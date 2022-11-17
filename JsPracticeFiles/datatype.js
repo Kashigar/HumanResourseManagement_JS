@@ -13,8 +13,9 @@ console.log(typeof(b))
 console.log(typeof(c))
 console.log(typeof(d))
 console.log(typeof(e))
-console.log(f);
-console.log(g)
+console.log(typeof(f));
+console.log(g)              //null
+console.log(typeof(g))      //object
 
 
 

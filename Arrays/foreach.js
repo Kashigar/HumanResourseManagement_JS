@@ -1,9 +1,4 @@
-var Array=[10,20,30,40,50]
+var empid=[101,202,303,404,505]
 
-Array.forEach(element => {
-    console.log(element*2); 
-})
-
-console.log(Array);
-
-//output : 20,40,60,80,100
+var filterresult=empid.filter(ele=>ele+2);
+console.log(filterresult);

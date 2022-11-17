@@ -1,13 +1,17 @@
-function operation(a,b,operation)
+function LoginType(user,pass,logAs)
 {
-    log(operation(a,b))
+    console.log(logAs(user,pass))
 }
-    function sum(a,b)
+    function hrassistant(user,pass)
     {
-        log("Addition of two values" + a+b)
+        return(user + " " + pass)
     }
-    function mul(a,b)
+    function hrhead(user,pass)
     {
-        log(a*b)
+       return(user+ " " + pass)
     }
-operation(4,8,sum)
+    function hrofficer(user,pass)
+    {
+        return(user+ " " + pass);
+    }
+LoginType("hrassistant@gmail.com","hrassistant@123",hrassistant)

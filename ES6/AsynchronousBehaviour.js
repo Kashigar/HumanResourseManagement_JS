@@ -16,3 +16,4 @@ setTimeout(()=>{
 setTimeout(()=>{
     console.log("It is a Timeout method number 4");
 },4000)
+console.log("logout");

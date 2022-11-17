@@ -15,4 +15,3 @@ lapi.brand="samsung"
 console.log(lapi.color);
 lapi.addres
 
-

@@ -14,7 +14,6 @@ var prgm2={
        console.log( "hello" + " " +this.fname +" "+ " hi" +this.lname)
     }
 }
-
 function wishes(value1, value2)
 {
     console.log(value1+this.fname+ " "+this.lname+value2 );

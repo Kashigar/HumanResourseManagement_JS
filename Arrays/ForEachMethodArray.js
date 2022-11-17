@@ -7,10 +7,8 @@ var arr=[2,5,7,2.8, , ,]
 
 // arr.forEach(element => {
 //     console.log(element,arr[element]);
-
 // });
-
-for (const iterator of arr) {
-    console.log(iterator
-        );
-}
+// for (const iterator of arr) {
+//     console.log(iterator
+//         );
+// }
